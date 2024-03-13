@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/seminar_4_farmacie/medicament/medicament.iml" filepath="$PROJECT_DIR$/seminar_4_farmacie/medicament/medicament.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar1.iml" filepath="$PROJECT_DIR$/seminar1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar_1/seminar_1.iml" filepath="$PROJECT_DIR$/seminar_1/seminar_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar_2/seminar_2.iml" filepath="$PROJECT_DIR$/seminar_2/seminar_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar_3/seminar_3.iml" filepath="$PROJECT_DIR$/seminar_3/seminar_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar_4_farmacie/seminar_4_farmacie.iml" filepath="$PROJECT_DIR$/seminar_4_farmacie/seminar_4_farmacie.iml" />
+    </modules>
+  </component>
+</project>
