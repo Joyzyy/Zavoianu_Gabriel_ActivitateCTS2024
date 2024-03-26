@@ -1,4 +1,4 @@
-package Builder;
+package BuilderV2;
 
 public interface AbstractBuilder {
     AbstractBuilder adaugaMancare();
