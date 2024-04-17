@@ -1,2 +1,5 @@
-package clase;public interface BiletAbstract {
+package clase;
+
+public interface BiletAbstract {
+    void printareBilet();
 }

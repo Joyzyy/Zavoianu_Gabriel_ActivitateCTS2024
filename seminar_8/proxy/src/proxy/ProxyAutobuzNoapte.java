@@ -1,16 +1,30 @@
 package proxy;
 
+import clase.Autobuz;
 import clase.AutobuzAbstract;
 
-public abstract class Proxy implements AutobuzAbstract {
+public class ProxyAutobuzNoapte implements AutobuzAbstract {
     AutobuzAbstract autobuzAbstract;
 
-    public Proxy(AutobuzAbstract autobuzAbstract) {
+    public ProxyAutobuzNoapte(AutobuzAbstract autobuzAbstract) {
         this.autobuzAbstract = autobuzAbstract;
     }
 
     @Override
-    public boolean opresteInStatie(String statie) {
-        return false;
+    public void opresteInStatie(String statie) {
+        if (this.autobuzAbstract.getNumarCalatori() == 0)
+            System.out.println("SKIP LA STATIA " + statie);
+        else
+            this.autobuzAbstract.opresteInStatie(statie);
+    }
+
+    @Override
+    public String getNumarAutobuz() {
+        return this.autobuzAbstract.getNumarAutobuz();
+    }
+
+    @Override
+    public int getNumarCalatori() {
+        return this.autobuzAbstract.getNumarCalatori();
     }
 }

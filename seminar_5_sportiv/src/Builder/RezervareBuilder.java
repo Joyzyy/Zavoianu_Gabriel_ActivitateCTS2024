@@ -9,6 +9,51 @@ public class RezervareBuilder implements AbstractBuilder {
 
     public RezervareBuilder() {}
 
+    public boolean isMancareInclusa() {
+        return isMancareInclusa;
+    }
+
+    public RezervareBuilder setMancareInclusa(boolean mancareInclusa) {
+        isMancareInclusa = mancareInclusa;
+        return this;
+    }
+
+    public boolean isScaunErgonomic() {
+        return isScaunErgonomic;
+    }
+
+    public RezervareBuilder setScaunErgonomic(boolean scaunErgonomic) {
+        isScaunErgonomic = scaunErgonomic;
+        return this;
+    }
+
+    public boolean isBautura() {
+        return isBautura;
+    }
+
+    public RezervareBuilder setBautura(boolean bautura) {
+        isBautura = bautura;
+        return this;
+    }
+
+    public boolean isMuzica() {
+        return isMuzica;
+    }
+
+    public RezervareBuilder setMuzica(boolean muzica) {
+        isMuzica = muzica;
+        return this;
+    }
+
+    public String getGenMuzical() {
+        return genMuzical;
+    }
+
+    public RezervareBuilder setGenMuzical(String genMuzical) {
+        this.genMuzical = genMuzical;
+        return this;
+    }
+
     @Override
     public AbstractBuilder adaugaMancare() {
         this.isMancareInclusa = true;
